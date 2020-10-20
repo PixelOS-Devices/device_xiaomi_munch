@@ -105,4 +105,14 @@
     <string name="auto_hbm_threshold_summary">Threshold (lux)</string>
     <string name="hbm_mode_warning">Long time usage of High brightness mode may damage your display</string>
     <string name="auto_hbm_mode_warning">Auto brightness needs to be turned on for auto HBM to work</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Touch Control</string>
+    <string name="touch_game_mode_title">Enable</string>
+    <string name="touch_response_title">Responsivity</string>
+    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_sensitivity_title">Sensitivity</string>
+    <string name="touch_sensitivity_summary">Controls touch sensitivity for repeated taps</string>
+    <string name="touch_resistant_title">Resistant area</string>
+    <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
 </resources>
