@@ -314,6 +314,7 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=4000
 ro.surface_flinger.set_touch_timer_ms=4000
 ro.vendor.display.touch.idle.enable=true
+vendor.display.idle_time=1100
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
