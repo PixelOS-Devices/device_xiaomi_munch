@@ -43,6 +43,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
+# Regulatory info overlays
+PRODUCT_PACKAGES += \
+    SettingsOverlay22021211RC \
+    SettingsOverlay22021211RG \
+    SettingsOverlay22021211RI
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
