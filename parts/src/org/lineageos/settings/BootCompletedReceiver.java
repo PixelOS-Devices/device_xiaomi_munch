@@ -31,6 +31,8 @@ import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
+
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
@@ -53,6 +55,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
         FileUtils.enableService(context);
+        RefreshUtils.startService(context);  
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
         setDcDimmingStatus(dcDimmingEnabled);
@@ -72,6 +75,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DIMMING_ON);
             // Update the brightness node so dc dimming updates its state
             FileUtils.writeLine(BRIGHTNESS_NODE, FileUtils.readOneLine(BRIGHTNESS_NODE));
-        }
+        }      
     }
 }
