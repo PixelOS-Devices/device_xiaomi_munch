@@ -353,6 +353,9 @@ MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
 
+# Telephony
+telephony.active_modems.max_count=2
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
