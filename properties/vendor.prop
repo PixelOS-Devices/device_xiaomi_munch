@@ -247,6 +247,7 @@ debug.sf.latch_unsignaled=1
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.treat_170m_as_sRGB=1
 persist.demo.hdmirotationlock=false
+debug.force_no_blanking=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.hwui.render_ahead=10
