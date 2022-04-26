@@ -15,6 +15,9 @@ function blob_fixup() {
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             $SIGSCAN -p "9A 0A 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
+        vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
+            sed -ni '/ozoaudio/!p' "${2}"
+            ;;
     esac
 }
 
