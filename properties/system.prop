@@ -15,6 +15,7 @@ debug.cpurend.vsync=false
 
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
