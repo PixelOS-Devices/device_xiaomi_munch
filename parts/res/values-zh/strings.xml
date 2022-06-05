@@ -71,11 +71,11 @@
     <string name="dirac_preset_soft_bass">柔和低音</string>
     <string name="dirac_preset_soft_treble">柔和高音</string>
 
-    <string name="music_headset_scenario_select">选择场景</string>
-    <string name="music_headset_scenario_intelligent">智能</string>
-    <string name="music_headset_scenario_music">音乐</string>
-    <string name="music_headset_scenario_video">视频</string>
-    <string name="music_headset_scenario_vocal">语音</string>
+    <string name="dirac_headset_optimization">场景优化</string>
+    <string name="dirac_headset_scenario_intelligent">智能</string>
+    <string name="dirac_headset_scenario_music">音乐</string>
+    <string name="dirac_headset_scenario_video">视频</string>
+    <string name="dirac_headset_scenario_vocal">人声</string>
 
     <!-- Popup camera settings -->
     <string name="popup_led_title">升降摄像头灯效</string>

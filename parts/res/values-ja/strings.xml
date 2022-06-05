@@ -71,11 +71,10 @@
     <string name="dirac_preset_soft_bass">ソフトな低音</string>
     <string name="dirac_preset_soft_treble">ソフトな高音</string>
 
-    <string name="music_headset_scenario_select">シーンを選択</string>
-    <string name="music_headset_scenario_intelligent">スマート</string>
-    <string name="music_headset_scenario_music">音楽</string>
-    <string name="music_headset_scenario_video">ビデオ</string>
-    <string name="music_headset_scenario_vocal">音声</string>
+    <string name="dirac_headset_scenario_intelligent">スマート</string>
+    <string name="dirac_headset_scenario_music">音楽</string>
+    <string name="dirac_headset_scenario_video">ビデオ</string>
+    <string name="dirac_headset_scenario_vocal">音声</string>
 
     <!-- Popup camera settings -->
     <string name="popup_led_title">カメラ LED</string>

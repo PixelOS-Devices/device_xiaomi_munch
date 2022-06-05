@@ -71,11 +71,10 @@
     <string name="dirac_preset_soft_bass">Âm Trầm Nhẹ</string>
     <string name="dirac_preset_soft_treble">Âm Bổng Nhẹ</string>
 
-    <string name="music_headset_scenario_select">Chọn bối cảnh</string>
-    <string name="music_headset_scenario_intelligent">Thông minh</string>
-    <string name="music_headset_scenario_music">Nhạc</string>
-    <string name="music_headset_scenario_video">Video</string>
-    <string name="music_headset_scenario_vocal">Giọng nói</string>
+    <string name="dirac_headset_scenario_intelligent">Thông minh</string>
+    <string name="dirac_headset_scenario_music">Nhạc</string>
+    <string name="dirac_headset_scenario_video">Video</string>
+    <string name="dirac_headset_scenario_vocal">Giọng nói</string>
 
     <!-- Popup camera settings -->
     <string name="popup_led_title">Đèn LED máy ảnh</string>
