@@ -1,12 +1,11 @@
 # Audio
 persist.vendor.audio.delta.refresh=true
-persist.vendor.audio.misound.disable=true
 ro.audio.monitorRotation=true
-ro.vendor.audio.enhance.support=false
+ro.vendor.audio.enhance.support=true
 ro.vendor.audio.gain.support=true
 ro.vendor.audio.karaok.support=true
 ro.vendor.audio.ns.support=false
-ro.vendor.audio.sfx.audiovisual=false
+ro.vendor.audio.sfx.audiovisual=true
 ro.vendor.audio.soundtrigger.appdefine.cnn.level=35
 ro.vendor.audio.soundtrigger.appdefine.gmm.level=55
 ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=65
