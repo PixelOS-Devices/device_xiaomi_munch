@@ -23,7 +23,7 @@
     <string name="dirac_title">Dirac sound enhancer</string>
     <string name="dirac_summary">Optimize sound quality with Dirac, Hi-Fi</string>
     <string name="dirac_headset_title">Headset type</string>
-    <string name="dirac_hifi_enable_title"> Enable Hi-fi</string>
+    <string name="dirac_hifi_enable_title">Enable Hi-fi</string>
     <string name="dirac_preset_title">Sound preset</string>
 
     <string name="dirac_hifi_title">Hi-Fi</string>
@@ -83,7 +83,7 @@
     <string name="popup_title_cangmen">Cabin door</string>
 
     <!-- Popup camera strings -->
-    <string name="popup_camera_tip">Warning</string>
+    <string name="popup_camera_tip">Attention</string>
     <string name="popup_camera_takeback_failed_times_calibrate">Couldn\'t close front camera multiple times. Try calibrating the camera.</string>
     <string name="popup_camera_popup_failed_times_calibrate">Couldn\'t open front camera multiple times. Try calibrating the camera.</string>
     <string name="popup_camera_calibrate_running">Front camera cannot be used during calibration.</string>
@@ -93,6 +93,7 @@
     <string name="stop_operate_camera_frequently">You\'re opening the front camera too frequently.</string>
     <string name="takeback_camera_front_failed">Couldn\'t close front camera. Try again.</string>
     <string name="popup_camera_front_failed">Couldn\'t open front camera. Try again.</string>
+    <string name="popup_camera_proximity_obstructed">Remove your hand from the proximity sensor to open the front camera...</string>
 
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
