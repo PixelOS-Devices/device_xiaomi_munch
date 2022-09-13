@@ -24,6 +24,9 @@
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">1px</dimen>
 
+    <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
+    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
+
     <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
      For devices with sensors on the back of the device, this corresponds to the location on the
