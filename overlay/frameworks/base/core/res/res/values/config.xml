@@ -931,4 +931,7 @@
     <!-- Package name of a telephony-related system app, such as an IMS service.
          Exempted from privacy indicators. -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
+
+    <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
+    <string name="config_netflixSpoofModel" translatable="false">22021211RG</string>
 </resources>
