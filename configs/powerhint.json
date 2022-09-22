@@ -342,6 +342,15 @@
         "0"
       ],
       "ResetOnInit": true
+    },
+    {
+      "Name": "DisableLpmSleep",
+      "Path": "/sys/module/lpm_levels/parameters/sleep_disabled",
+      "Values": [
+        "Y",
+        "N"
+      ],
+      "ResetOnInit": true
     }
   ],
   "Actions": [
@@ -428,6 +437,12 @@
       "Node": "SchedBoost",
       "Duration": 6000,
       "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "DisableLpmSleep",
+      "Duration": 6000,
+      "Value": "Y"
     },
     {
       "PowerHint": "LAUNCH",
