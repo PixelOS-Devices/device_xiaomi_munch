@@ -9,6 +9,8 @@ TARGET_IS_VAB := true
 
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
+# Call the MiuiCamera setup
+$(call inherit-product, vendor/xiaomi/munch-miuicamera/products/miuicamera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
