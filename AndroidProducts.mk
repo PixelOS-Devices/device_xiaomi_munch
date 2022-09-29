@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_munch.mk
+    $(LOCAL_DIR)/origami_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_munch-user \
-    arrow_munch-userdebug \
-    arrow_munch-eng
+    origami_munch-user \
+    origami_munch-userdebug \
+    origami_munch-eng
