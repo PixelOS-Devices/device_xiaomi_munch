@@ -3,7 +3,7 @@
     package="com.android.settings.overlay.munchcn">
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.settings"
-             android:requiredSystemPropertyName="ro.product.vendor.model"
-             android:requiredSystemPropertyValue="22021211RC"
+             android:requiredSystemPropertyName="ro.boot.hwc"
+             android:requiredSystemPropertyValue=""
              android:isStatic="true" />
 </manifest>

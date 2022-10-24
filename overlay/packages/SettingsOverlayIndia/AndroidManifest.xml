@@ -3,7 +3,7 @@
     package="com.android.settings.overlay.munchin">
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.settings"
-             android:requiredSystemPropertyName="ro.product.vendor.model"
-             android:requiredSystemPropertyValue="22021211RI"
+             android:requiredSystemPropertyName="ro.boot.hwc"
+             android:requiredSystemPropertyValue="INDIA"
              android:isStatic="true" />
 </manifest>
