@@ -470,12 +470,6 @@ vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
-# Dolby
-vendor/etc/dolby/dax-default.xml
-vendor/etc/dolby_vision.cfg
-vendor/lib/libstagefrightdolby.so
-vendor/lib64/libstagefrightdolby.so
-
 # NFC
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf

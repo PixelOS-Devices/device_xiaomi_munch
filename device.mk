@@ -53,11 +53,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-PRODUCT_PACKAGES += \
-    libcodec2_hidl@1.1.vendor \
-    libavservices_minijail_vendor \
-    libcodec2_soft_common.vendor \
-    libsfplugin_ccodec_utils.vendor
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
