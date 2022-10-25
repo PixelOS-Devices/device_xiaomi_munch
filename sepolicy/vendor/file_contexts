@@ -102,6 +102,3 @@
 # WiFi
 /vendor/bin/nv_mac                                                      u:object_r:vendor_wcnss_service_exec:s0
 /data/vendor/mac_addr(/.*)?                                             u:object_r:vendor_wifi_vendor_data_file:s0
-
-# Media
-/vendor/bin/hw/dolbycodec2			u:object_r:mediacodec_exec:s0
