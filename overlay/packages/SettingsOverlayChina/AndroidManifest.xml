@@ -4,6 +4,6 @@
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.settings"
              android:requiredSystemPropertyName="ro.boot.hwc"
-             android:requiredSystemPropertyValue="CN"
+             android:requiredSystemPropertyValue=""
              android:isStatic="true" />
 </manifest>

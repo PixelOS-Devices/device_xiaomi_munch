@@ -36,7 +36,7 @@ static const variant_info_t munch_global_info = {
 };
 
 static const variant_info_t munch_info = {
-    .hwc_value = "CN",
+    .hwc_value = "",
     .sku_value = "",
     .mod_device = "munch_global",
     .brand = "Redmi",
