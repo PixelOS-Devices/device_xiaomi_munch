@@ -26,7 +26,7 @@
     <dimen name="rounded_corner_radius">126px</dimen>
 
     <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">25px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">22px</dimen>
 
     <!-- Height of area above QQS where battery/time go.
          Do not read this dimen directly. Use {@link SystemBarUtils#getQuickQsOffsetHeight} instead.
