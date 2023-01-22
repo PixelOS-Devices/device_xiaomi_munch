@@ -5,9 +5,15 @@
 //
 
 cc_library_static {
-    name: "init_xiaomi_munch",
-    srcs: ["init_xiaomi_munch.cpp"],
-    whole_static_libs: ["//device/xiaomi/sm8250-common:libinit_xiaomi_kona"],
+    name: "libinit_munch",
+    srcs: [
+        "init_munch.cpp",
+        "libinit_dalvik_heap.cpp",
+        "libinit_variant.cpp",
+        "libinit_utils.cpp",
+    ],
+    export_include_dirs: ["include"],
     include_dirs: ["system/core/init"],
+    whole_static_libs: ["libbase"],
     recovery_available: true,
 }
