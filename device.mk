@@ -284,7 +284,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
 # Keymaster
 PRODUCT_PACKAGES += \
