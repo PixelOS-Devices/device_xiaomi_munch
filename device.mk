@@ -95,7 +95,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
-endif
 
 # Audio
 PRODUCT_PACKAGES += \
