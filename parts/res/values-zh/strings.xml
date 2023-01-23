@@ -71,6 +71,7 @@
     <string name="dirac_preset_soft_bass">柔和低音</string>
     <string name="dirac_preset_soft_treble">柔和高音</string>
 
+    <!-- Dirac sound optimization profiles -->
     <string name="dirac_headset_optimization">场景优化</string>
     <string name="dirac_headset_scenario_intelligent">智能</string>
     <string name="dirac_headset_scenario_music">音乐</string>

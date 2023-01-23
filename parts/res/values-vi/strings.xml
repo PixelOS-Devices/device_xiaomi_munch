@@ -71,6 +71,7 @@
     <string name="dirac_preset_soft_bass">Âm Trầm Nhẹ</string>
     <string name="dirac_preset_soft_treble">Âm Bổng Nhẹ</string>
 
+    <!-- Dirac sound optimization profiles -->
     <string name="dirac_headset_scenario_intelligent">Thông minh</string>
     <string name="dirac_headset_scenario_music">Nhạc</string>
     <string name="dirac_headset_scenario_video">Video</string>

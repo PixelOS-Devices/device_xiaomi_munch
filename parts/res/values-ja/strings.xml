@@ -71,6 +71,7 @@
     <string name="dirac_preset_soft_bass">ソフトな低音</string>
     <string name="dirac_preset_soft_treble">ソフトな高音</string>
 
+    <!-- Dirac sound optimization profiles -->
     <string name="dirac_headset_scenario_intelligent">スマート</string>
     <string name="dirac_headset_scenario_music">音楽</string>
     <string name="dirac_headset_scenario_video">ビデオ</string>
