@@ -468,18 +468,18 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.mlipay</name>
-        <version>1.0-1</version>
+        <name>vendor.xiaomi.hardware.fx.tunnel</name>
+        <version>1.0</version>
         <interface>
-            <name>IMlipayService</name>
+            <name>IMiFxTunnel</name>
             <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.motor</name>
-        <version>1.0</version>
+        <name>vendor.xiaomi.hardware.mlipay</name>
+        <version>1.0-1</version>
         <interface>
-            <name>IMotor</name>
+            <name>IMlipayService</name>
             <instance>default</instance>
         </interface>
     </hal>
