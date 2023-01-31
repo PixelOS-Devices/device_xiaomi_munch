@@ -370,6 +370,14 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aosp
 
+PRODUCT_PACKAGES += \
+    MunchCNSettingsProviderOverlay \
+    MunchCNWifiOverlay \
+    MunchGLOBALSettingsProviderOverlay \
+    MunchGLOBALWifiOverlay \
+    MunchINDIASettingsProviderOverlay \
+    MunchINDIAWifiOverlay \
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
