@@ -2747,6 +2747,9 @@
         <boolean name="show_merge_button_on_conference_participant" value="true" />
         <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
         <int name="ims_conference_size_limit_int" value="9" />
+        <int-array name="carrier_nr_availabilities_int_array" num="1"> 
+            <item value="2" /> 
+        </int-array>
     </carrier_config>
     <carrier_config mcc="455" mnc="02,07">
         <string-array name="apn_hide_rule_strings_array" num="2">
