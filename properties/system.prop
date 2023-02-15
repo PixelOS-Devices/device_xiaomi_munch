@@ -60,6 +60,16 @@ ro.netflix.bsp_rev=Q8250-19134-1
 ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=2
 
+# Power-saving props
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Radio
 persist.vendor.radio.report_codec=1
 
