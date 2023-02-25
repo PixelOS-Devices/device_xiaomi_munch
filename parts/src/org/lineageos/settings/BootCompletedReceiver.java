@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
  *               2017-2020 The LineageOS Project
+ *               2022-2023 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,7 +36,15 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
     private static final String TAG = "XiaomiParts";
     private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
-    private static final String DC_DIMMING_NODE = "/sys/class/drm/card0-DSI-1/disp_param";
+    private static final String DISPPARAM_NODE = "/sys/class/drm/card0-DSI-1/disp_param";
+
+    private static final String DISPPARAM_DC_ON = "0x40000";
+    private static final String DISPPARAM_DC_OFF = "0x50000";
+    private static final String DISPPARAM_DIMMING_ON = "0xF00";
+    private static final String DISPPARAM_DIMMING_OFF = "0xE00";
+    private static final String DISPPARAM_CRC_OFF = "0xF00000";
+
+    private static final String BRIGHTNESS_NODE = "/sys/class/backlight/panel0-backlight/brightness";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -46,6 +55,23 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FileUtils.enableService(context);
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
-        FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "0x40000" : "0x50000");
+        setDcDimmingStatus(dcDimmingEnabled);
+    }
+
+    void setDcDimmingStatus(boolean enabled) {
+        if (enabled) {
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DC_ON);
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DIMMING_OFF);
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DIMMING_ON);
+            // Update the brightness node so dc dimming updates its state
+            FileUtils.writeLine(BRIGHTNESS_NODE, FileUtils.readOneLine(BRIGHTNESS_NODE));
+        } else {
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DIMMING_OFF);
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_CRC_OFF);
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DC_OFF);
+            FileUtils.writeLine(DISPPARAM_NODE, DISPPARAM_DIMMING_ON);
+            // Update the brightness node so dc dimming updates its state
+            FileUtils.writeLine(BRIGHTNESS_NODE, FileUtils.readOneLine(BRIGHTNESS_NODE));
+        }
     }
 }
