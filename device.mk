@@ -5,7 +5,7 @@
 #
 
 # Call the MiuiCamera setup
-$(call inherit-product-if-exists, vendor/xiaomi/munch-miuicamera/products/miuicamera.mk)
+$(call inherit-product-if-exists, device/xiaomi/munch-miuicamera/config.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
