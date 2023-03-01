@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Firmware
+-include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+
+# Inherit the proprietary files
+include vendor/xiaomi/munch/BoardConfigVendor.mk
+
 # Inherit from proprietary files for miuicamera
 -include vendor/xiaomi/munch-miuicamera/products/board.mk
 
@@ -225,6 +231,3 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-
-# Inherit the proprietary files
-include vendor/xiaomi/munch/BoardConfigVendor.mk
