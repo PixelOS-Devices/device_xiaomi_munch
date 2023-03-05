@@ -29,12 +29,13 @@
         android:title="@string/dirac_enable" />
 
     <ListPreference
-        android:key="dirac_scenario_pref"
-        android:entries="@array/dirac_scenario_pref_titles"
-        android:entryValues="@array/dirac_scenario_pref_values"
+        android:key="scenario_selection"
+        android:entries="@array/scenario_selector_titles"
+        android:entryValues="@array/scenario_selector_values"
         android:defaultValue="4"
-        android:title="@string/dirac_headset_optimization"
-        android:summary="%s" />
+        android:title="@string/music_headset_scenario_select"
+        android:summary="%s"
+        android:icon="@drawable/ic_scenes" />
 
     <ListPreference
         android:key="dirac_headset_pref"
