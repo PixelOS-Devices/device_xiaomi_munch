@@ -66,6 +66,6 @@ public class DiracSound extends AudioEffect {
 
     public void setScenario(int scene) throws IllegalStateException,
             IllegalArgumentException, UnsupportedOperationException, RuntimeException {
-        checkStatus(setParameter(DIRACSOUND_PARAM_SCENE, mode));
+        checkStatus(setParameter(DIRACSOUND_PARAM_SCENE, scene));
     }
 }
