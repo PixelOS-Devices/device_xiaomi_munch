@@ -25,20 +25,20 @@
     <string name="dirac_headset_title">耳机类型设置</string>
     <string name="dirac_preset_title">请选择预设效果</string>
 
+    <!-- Hi-Fi -->
     <string name="dirac_hifi_title">使用 Hi-Fi 高保真播放</string>
     <string name="dirac_hifi_summary">高度还原音源信息，原汁原味</string>
     <string name="dirac_hifi_enable_title">启用 HI-FI</string>
 
+    <!-- Dirac headsets -->
     <string name="dirac_headset_default">默认​​​​​</string>
     <string name="dirac_headset_earbuds">小米耳塞式</string>
     <string name="dirac_headset_in_ear_2013">小米圈铁 (2013)</string>
     <string name="dirac_headset_piston_1">小米活塞 1</string>
-    <string name="dirac_headset_general">通用</string>
     <string name="dirac_headset_general_inear">通用入耳式</string>
     <string name="dirac_headset_piston_basic">小米活塞简装版</string>
     <string name="dirac_headset_piston_2">小米活塞2</string>
     <string name="dirac_headset_piston_standard">小米活塞标准版</string>
-    <string name="dirac_headset_headphone">小米头戴式</string>
     <string name="dirac_headset_piston_youth">小米活塞青春版</string>
     <string name="dirac_headset_piston_color">小米活塞炫彩版</string>
     <string name="dirac_headset_in_ear">小米圈铁</string>
@@ -51,7 +51,13 @@
     <string name="dirac_headset_in_ear2">小米圈铁 2</string>
     <string name="dirac_headset_earphone_basic">小米耳机基本款</string>
     <string name="dirac_headset_earphone">小米耳机</string>
+    <string name="dirac_headset_ear_four">小米四驱耳机</string>
+    <string name="dirac_headset_piston_typec">小米入耳式耳机 (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">小米蓝牙项圈耳机</string>
+    <string name="dirac_headset_bluetooth_linefree">小米蓝牙耳机</string>
+    <string name="dirac_headset_redmi_earphones">红米耳机</string>
 
+    <!-- Dirac presets -->
     <string name="dirac_preset_default">默认​​​​​</string>
     <string name="dirac_preset_rock">摇滚</string>
     <string name="dirac_preset_jazz">爵士</string>
@@ -93,4 +99,22 @@
     <string name="thermal_dialer">电话</string>
     <string name="thermal_gaming">游戏</string>
     <string name="thermal_streaming">流媒体应用程序</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">触屏优化</string>
+    <string name="touch_game_mode_title">打开游戏模式</string>
+    <string name="touch_response_title">触控反馈</string>
+    <string name="touch_response_summary">控制触控反馈</string>
+    <string name="touch_sensitivity_title">触屏灵敏度</string>
+    <string name="touch_sensitivity_summary">控制重复点按的灵敏度</string>
+    <string name="touch_resistant_title">防误触区域</string>
+    <string name="touch_resistant_summary">降低屏幕边缘附近的灵敏度以防止误触</string>
+    
+    <!-- Refresh Rate Settings -->
+    <string name="refresh_rate_tile_title">刷新率</string>
+    <string name="refresh_title">每个应用程序的刷新率</string>
+    <string name="refresh_summary">为每个应用设置特定的刷新率</string>
+    <string name="refresh_default">默认​​​​​</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
 </resources>

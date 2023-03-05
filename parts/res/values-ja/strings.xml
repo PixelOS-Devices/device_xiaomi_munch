@@ -25,20 +25,20 @@
     <string name="dirac_headset_title">ヘッドフォンの種類を選択</string>
     <string name="dirac_preset_title">プリセットを選択してください</string>
 
+    <!-- Hi-Fi -->
     <string name="dirac_hifi_title">Hi-Fi オーディオ</string>
     <string name="dirac_hifi_summary">ノイズやひずみを低減し、オーディオ品質を向上させる</string>
     <string name="dirac_hifi_enable_title">Hi-Fi の有効化</string>
 
+    <!-- Dirac headsets -->
     <string name="dirac_headset_default">デフォルト</string>
     <string name="dirac_headset_earbuds">Mi イヤーバッド</string>
     <string name="dirac_headset_in_ear_2013">Mi インイヤー (2013)</string>
     <string name="dirac_headset_piston_1">Mi ピストン 1</string>
-    <string name="dirac_headset_general">一般</string>
     <string name="dirac_headset_general_inear">一般的なインイヤー型</string>
     <string name="dirac_headset_piston_basic">ベーシック版</string>
     <string name="dirac_headset_piston_2">Mi ピストン 2</string>
     <string name="dirac_headset_piston_standard">スタンダード版</string>
-    <string name="dirac_headset_headphone">Mi ヘッドフォン</string>
     <string name="dirac_headset_piston_youth">青春版</string>
     <string name="dirac_headset_piston_color">カラー版</string>
     <string name="dirac_headset_in_ear">Mi インイヤー</string>
@@ -51,7 +51,13 @@
     <string name="dirac_headset_in_ear2">Mi インイヤー2</string>
     <string name="dirac_headset_earphone_basic">Mi イヤフォン ベーシック</string>
     <string name="dirac_headset_earphone">Mi イヤホン</string>
+    <string name="dirac_headset_ear_four">Mi クアドラプルドライバーイヤホン</string>
+    <string name="dirac_headset_piston_typec">Mi インイヤーヘッドホン (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth ネックバンド</string>
+    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth イヤホン</string>
+    <string name="dirac_headset_redmi_earphones">Redmi イヤホン</string>
 
+    <!-- Dirac presets -->
     <string name="dirac_preset_default">デフォルト</string>
     <string name="dirac_preset_rock">ロック</string>
     <string name="dirac_preset_jazz">ジャズ</string>
@@ -71,7 +77,8 @@
     <string name="dirac_preset_soft_bass">ソフトな低音</string>
     <string name="dirac_preset_soft_treble">ソフトな高音</string>
 
-    <!-- Dirac sound optimization profiles -->
+    <!-- Dirac scence profiles -->
+    <string name="music_headset_scenario_select">シーンを選択</string>
     <string name="music_headset_scenario_intelligent">スマート</string>
     <string name="music_headset_scenario_music">音楽</string>
     <string name="music_headset_scenario_video">ビデオ</string>
@@ -92,4 +99,22 @@
     <string name="thermal_dialer">電話</string>
     <string name="thermal_gaming">ゲーム</string>
     <string name="thermal_streaming">ストリーミングアプリ</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">タッチ画面の最適化</string>
+    <string name="touch_game_mode_title">ゲームモードを有効化</string>
+    <string name="touch_response_title">タッチ反応速度</string>
+    <string name="touch_response_summary">タッチ反応速度を制御する</string>
+    <string name="touch_sensitivity_title">タッチ感度</string>
+    <string name="touch_sensitivity_summary">複数回のタップに対する感度を制御する</string>
+    <string name="touch_resistant_title">タッチ感度低下範囲</string>
+    <string name="touch_resistant_summary">誤動作を回避するために画面の縁の周辺の感度を低下させる</string>
+
+    <!-- Refresh Rate Settings -->
+    <string name="refresh_rate_tile_title">リフレッシュレート</string>
+    <string name="refresh_title">アプリごとのリフレッシュレート</string>
+    <string name="refresh_summary">アプリごとに特定のリフレッシュレートを設定する</string>
+    <string name="refresh_default">デフォルト</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
 </resources>
