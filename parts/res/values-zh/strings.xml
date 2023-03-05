@@ -72,11 +72,11 @@
     <string name="dirac_preset_soft_treble">柔和高音</string>
 
     <!-- Dirac sound optimization profiles -->
-    <string name="dirac_headset_optimization">场景优化</string>
-    <string name="dirac_headset_scenario_intelligent">智能</string>
-    <string name="dirac_headset_scenario_music">音乐</string>
-    <string name="dirac_headset_scenario_video">视频</string>
-    <string name="dirac_headset_scenario_vocal">人声</string>
+    <string name="music_headset_scenario_select">场景优化</string>
+    <string name="music_headset_scenario_intelligent">智能</string>
+    <string name="music_headset_scenario_music">音乐</string>
+    <string name="music_headset_scenario_video">视频</string>
+    <string name="music_headset_scenario_vocal">人声</string>
 
     <!-- Clear speaker -->
     <string name="clear_speaker_title">清理扬声器</string>
