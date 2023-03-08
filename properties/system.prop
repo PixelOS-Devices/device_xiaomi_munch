@@ -74,6 +74,10 @@ persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
 persist.vendor.qti.telephony.vt_cam_interface=2
 
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
