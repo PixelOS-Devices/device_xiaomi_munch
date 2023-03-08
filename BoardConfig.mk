@@ -86,6 +86,9 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 TARGET_USES_VULKAN := true
 
+# Display HDR
+TARGET_HAS_HDR_DISPLAY := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/fs/config.fs
 
