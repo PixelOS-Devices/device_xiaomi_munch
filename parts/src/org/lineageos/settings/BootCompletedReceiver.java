@@ -22,6 +22,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.IBinder;
+import android.view.Display.HdrCapabilities;
+import android.view.SurfaceControl;
 import android.content.SharedPreferences;
 import android.os.SystemProperties;
 import android.util.Log;
@@ -56,6 +59,12 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         ThermalUtils.startService(context);
         FileUtils.enableService(context);
         RefreshUtils.startService(context);  
+
+        // Override HDR types
+        final IBinder displayToken = SurfaceControl.getInternalDisplayToken();
+        SurfaceControl.overrideHdrTypes(displayToken, new int[]{
+                HdrCapabilities.HDR_TYPE_DOLBY_VISION, HdrCapabilities.HDR_TYPE_HDR10,
+                HdrCapabilities.HDR_TYPE_HLG, HdrCapabilities.HDR_TYPE_HDR10_PLUS});
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
         setDcDimmingStatus(dcDimmingEnabled);
