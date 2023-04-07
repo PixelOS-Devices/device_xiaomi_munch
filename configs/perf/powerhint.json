@@ -278,15 +278,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "PMQoSCpuDmaLatency",
-      "Path": "/dev/cpu_dma_latency",
-      "Values": [
-        "2c",
-        "100"
-      ],
-      "HoldFd": true
-    },
-    {
       "Name": "PowerHALMainState",
       "Path": "vendor.powerhal.state",
       "Values": [
@@ -476,12 +467,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 3000,
-      "Value": "2c"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "CPUBWHystTriggerCount",
       "Duration": 3000,
       "Value": "0"
@@ -587,12 +572,6 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 1000,
       "Value": "9999999"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1000,
-      "Value": "2c"
     },
     {
       "PowerHint": "CAMERA_STREAMING_MID",
@@ -769,28 +748,10 @@
       "Value": "9999999"
     },
     {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1000,
-      "Value": "2c"
-    },
-    {
-      "PowerHint": "AUDIO_LAUNCH",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 0,
-      "Value": "2c"
-    },
-    {
       "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
       "Node": "PowerHALAudioState",
       "Duration": 0,
       "Value": "AUDIO_STREAMING_LOW_LATENCY"
-    },
-    {
-      "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 0,
-      "Value": "2c"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
@@ -815,12 +776,6 @@
       "Node": "SchedBoost",
       "Duration": 5000,
       "Value": "1"
-    },
-    {
-      "PowerHint": "ML_ACC",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 2000,
-      "Value": "2c"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
