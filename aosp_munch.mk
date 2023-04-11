@@ -15,6 +15,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 PRODUCT_NAME := aosp_munch
 PRODUCT_DEVICE := munch
