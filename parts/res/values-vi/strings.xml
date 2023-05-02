@@ -128,7 +128,6 @@
     <string name="touch_resistant_summary">Giảm độ nhạy gần các cạnh để tránh chạm nhầm</string>
 
     <!-- Refresh Rate Settings -->
-    <string name="refresh_rate_tile_title">Tần số làm tươi</string>
     <string name="refresh_title">Tần số quét cho mỗi ứng dụng</string>
     <string name="refresh_summary">Đặt tần số làm tươi cụ thể cho từng ứng dụng</string>
     <string name="refresh_default">Mặc định</string>

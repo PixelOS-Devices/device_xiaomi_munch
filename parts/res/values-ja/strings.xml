@@ -111,7 +111,6 @@
     <string name="touch_resistant_summary">誤動作を回避するために画面の縁の周辺の感度を低下させる</string>
 
     <!-- Refresh Rate Settings -->
-    <string name="refresh_rate_tile_title">リフレッシュレート</string>
     <string name="refresh_title">アプリごとのリフレッシュレート</string>
     <string name="refresh_summary">アプリごとに特定のリフレッシュレートを設定する</string>
     <string name="refresh_default">デフォルト</string>

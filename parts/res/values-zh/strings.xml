@@ -111,7 +111,6 @@
     <string name="touch_resistant_summary">降低屏幕边缘附近的灵敏度以防止误触</string>
     
     <!-- Refresh Rate Settings -->
-    <string name="refresh_rate_tile_title">刷新率</string>
     <string name="refresh_title">每个应用程序的刷新率</string>
     <string name="refresh_summary">为每个应用设置特定的刷新率</string>
     <string name="refresh_default">默认​​​​​</string>
