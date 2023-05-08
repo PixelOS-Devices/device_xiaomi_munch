@@ -33,7 +33,7 @@
         android:theme="@style/Theme.SubSettingsBase">
 
         <receiver android:name=".BootCompletedReceiver"
-                  android:exported="false">
+                  android:exported="true">
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
