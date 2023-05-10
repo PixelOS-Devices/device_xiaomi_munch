@@ -100,23 +100,6 @@
     <string name="thermal_gaming">Trò chơi</string>
     <string name="thermal_streaming">Ứng dụng phát trực tuyến</string>
 
-    <!-- HBM settings -->
-    <string name="hbm_fragment_title">Độ sáng cao</string>
-    <string name="hbm_fragment_summary">Tuỳ chỉnh độ sáng cao</string>
-    <string name="hbm_mode_title">Độ sáng cao</string>
-    <string name="hbm_mode_summary">Tăng độ sáng màn hình dưới ánh sáng mặt trời</string>
-    <string name="auto_hbm_title">Sáng cao tự động</string>
-    <string name="auto_hbm_summary">Tăng độ sáng màn hình dựa vào lượng ánh sáng mặt trời</string>
-    <string name="auto_hbm_threshold_title"></string>
-    <string name="auto_hbm_threshold_summary">Threshold (lux)</string>
-    <string name="hbm_mode_warning">Sử dụng ánh sáng cao quá lâu có thể nhanh làm hỏng màn hình hiển thị của bạn</string>
-    <string name="auto_hbm_mode_warning">Cần kích hoạt độ sáng tự động để sáng cao tự động có thể hoạt động</string>
-
-    <!-- DC dimming settings -->
-    <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Giảm mỏi mắt trong điều kiện ánh sáng thấp</string>
-    <string name="dc_dimming_enable_summary_not_supported">Kernel này hiện không hỗ trợ DC dimming</string>
-
     <!-- Touch Control Settings -->
     <string name="touch_control_title">Tối ưu hóa màn hình cảm ứng</string>
     <string name="touch_game_mode_title">Bật chế độ trò chơi</string>
