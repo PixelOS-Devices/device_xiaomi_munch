@@ -61,4 +61,10 @@
 
     <!-- Horizontal offset divisor of statusbar for burn-in protection -->
     <integer name="status_bar_offset_divisor">4</integer>
+    
+    <!-- Maximum vertical offset of statusbar for burn-in protection -->
+    <dimen name="status_bar_offset_max_y">0.75dp</dimen>
+
+    <!-- Maximum horizontal offset of statusbar for burn-in protection -->
+    <dimen name="status_bar_offset_max_x">0.75dp</dimen>
 </resources>
