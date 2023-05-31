@@ -384,6 +384,9 @@ PRODUCT_PACKAGES += \
     MunchGLOBALWifiOverlay \
     MunchINDIASettingsProviderOverlay \
     MunchINDIAWifiOverlay \
+    SettingsOverlay22021211RC \
+    SettingsOverlay22021211RG \
+    SettingsOverlay22021211RI 
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
