@@ -531,4 +531,6 @@
          If non-positive, then the refresh rate is unchanged even if thresholds are configured. -->
     <integer name="config_defaultRefreshRateInZone">120</integer>
 
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
 </resources>
