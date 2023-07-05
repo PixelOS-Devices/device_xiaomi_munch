@@ -371,11 +371,11 @@
       "Type": "Property"
     },
     {
-      "Name": "SchedBoost",
-      "Path": "/proc/sys/kernel/sched_boost",
+      "Name": "TASchedtuneBoost",
+      "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
-        "1",
-        "0"
+        "30",
+        "10"
       ],
       "ResetOnInit": true
     },
@@ -467,12 +467,6 @@
       "Node": "LLCCBWMinFreq",
       "Duration": 1000,
       "Value": "3879"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "SchedBoost",
-      "Duration": 6000,
-      "Value": "1"
     },
     {
       "PowerHint": "INTERACTION",
@@ -614,9 +608,9 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "SchedBoost",
-      "Duration": 5000,
-      "Value": "1"
+      "Node": "TASchedtuneBoost",
+      "Duration": 3000,
+      "Value": "30"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
