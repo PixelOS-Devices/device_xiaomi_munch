@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from proprietary files for miuicamera
--include vendor/xiaomi/munch-miuicamera/products/board.mk
-
 DEVICE_PATH := device/xiaomi/munch
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
