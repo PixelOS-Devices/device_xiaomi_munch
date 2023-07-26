@@ -293,6 +293,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
