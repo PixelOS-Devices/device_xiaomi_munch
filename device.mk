@@ -519,3 +519,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
