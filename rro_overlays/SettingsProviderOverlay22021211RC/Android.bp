@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "SettingsProviderOverlay22021211RC",
+    vendor: true
+}

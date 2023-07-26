@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "SettingsOverlay20221211RI",
+    product_specific: true,
+}

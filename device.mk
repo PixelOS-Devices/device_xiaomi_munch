@@ -364,6 +364,17 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aosp
 
+PRODUCT_PACKAGES += \
+    SettingsOverlay22021211RC \
+    SettingsOverlay22021211RG \
+    SettingsOverlay22021211RI \
+    SettingsProviderOverlay22021211RC \
+    SettingsProviderOverlay22021211RG \
+    SettingsProviderOverlay22021211RI \
+    WifiOverlay22021211RC \
+    WifiOverlay22021211RG \
+    WifiOverlay22021211RI \
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
