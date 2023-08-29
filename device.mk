@@ -332,14 +332,16 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc_snxxx@1.2-service \
+    android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
+    MunchNfcOverlay \
     NfcNci \
     SecureElement \
     Tag
 
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.boot.hardware.sku=munch
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/android.hardware.nfc.ese.xml \
