@@ -69,6 +69,8 @@ on fs
     mkdir /mnt/vendor/persist/data 0700 system system
     chmod 644 /mnt/vendor/persist/audio/us_manual_cal
     mkdir /mnt/vendor/persist/subsys 0770 root system
+    mkdir /mnt/vendor/persist/alarm 0770 system system
+    mkdir /mnt/vendor/persist/time 0770 system system
     #+ add for watermark
     mkdir /mnt/vendor/persist/camera 0777 root root
     mkdir /dev/logfs 0771 system system
