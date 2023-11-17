@@ -333,7 +333,6 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     libchrome.vendor \
@@ -453,6 +452,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge
+
+# Secure element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
