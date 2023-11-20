@@ -1,4 +1,0 @@
-runtime_resource_overlay {
-    name: "WifiOverlay22021211RC",
-    vendor: true
-}

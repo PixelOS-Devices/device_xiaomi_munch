@@ -336,7 +336,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     libchrome.vendor \
-    MunchNfcOverlay \
     NfcNci \
     SecureElement \
     Tag
@@ -367,20 +366,19 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
-
 PRODUCT_PACKAGES += \
-    SettingsProviderOverlay22021211RC \
-    SettingsProviderOverlay22021211RG \
-    SettingsProviderOverlay22021211RI \
-    WifiOverlay22021211RC \
-    WifiOverlay22021211RG \
-    WifiOverlay22021211RI \
+    MunchApertureOverlay \
+    MunchCarrierConfigOverlay \
+    MunchFrameworksOverlay \
+    MunchNfcOverlay \
+    MunchRefreshRateOverlay \
+    MunchSettingsOverlay \
+    MunchSettingsProvidersOverlay \
+    MunchSystemUIOverlay \
+    MunchTelephonyOverlay \
+    MunchWifiOverlay \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -511,7 +509,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     vendor.qti.hardware.wifi.hostapd@1.2.vendor \
     vendor.qti.hardware.wifi.supplicant@2.1.vendor \
-    WifiResCommon \
     wpa_supplicant \
     wpa_supplicant.conf
 
