@@ -321,6 +321,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor \
     libcodec2_soft_common.vendor \
+    libstagefright_foundation-v33 \
     libsfplugin_ccodec_utils.vendor
 
 PRODUCT_COPY_FILES += \
