@@ -108,6 +108,5 @@
                 android:name="com.android.settings.order"
                 android:value="1" />
         </activity>
-
     </application>
 </manifest>
