@@ -26,9 +26,6 @@
 
     <!-- Dolby Atmos: Sound Profiles -->
     <string name="dolby_profile_dynamic">Dynamic</string>
-
-    <!-- Dolby Atmos: Sound Profiles -->
-    <string name="dolby_profile_dynamic">Dynamic</string>
     <string name="dolby_profile_music">Music</string>
     <string name="dolby_profile_video">Video</string>
     <string name="dolby_profile_vocal">Voice</string>
