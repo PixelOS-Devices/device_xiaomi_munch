@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.kona \
     audio.r_submix.default \
-    audio.usbv2.default \
+    audio.usbv2.default
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
@@ -130,6 +130,9 @@ PRODUCT_PACKAGES += \
     libexthwplugin \
     libhdmiedid \
     libhfp \
+    libldacBT_abr \
+    libldacBT_bco \
+    libldacBT_enc \
     libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -158,7 +161,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor
+    vendor.qti.hardware.btconfigstore@2.0.vendor 
 
 # Camera
 PRODUCT_PACKAGES += \
