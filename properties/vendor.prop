@@ -181,6 +181,10 @@ vendor.qcom.bluetooth.soc=hastings
 persist.bluetooth.sbc_hd_higher_bitrate=1
 persist.vendor.btstack.enable.lpa=true
 
+# Blurs
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # Chipset
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
